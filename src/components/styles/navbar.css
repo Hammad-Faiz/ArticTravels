@@ -1,0 +1,39 @@
+body {
+  margin:0;
+	padding:0;
+}
+
+div {
+  margin: auto;
+  height: auto;
+  /* padding: 5px; */
+}
+
+.navbar{
+  display: flex;
+}
+
+.company {
+  font-size: 40px;
+  display: flex;
+}
+
+.logo-image img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+
+.nav-right{
+  display: flex;
+  font-size: 30px;
+}
+
+.trips {
+  margin-left: 40%;
+}
+
+.login {
+  margin-left: 40%;
+}
