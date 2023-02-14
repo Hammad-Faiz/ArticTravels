@@ -1,11 +1,12 @@
 import './styles/App.css';
-import Navbar from './navbar';
+import Navbar from './Navbar';
+import PlanTrips from './PlanTrips'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <hr></hr>
+      <PlanTrips />
     </div>
   );
 }

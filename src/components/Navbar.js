@@ -1,12 +1,12 @@
-import './styles/navbar.css'
+import './styles/Navbar.css'
 import artic from './images/Artic.png'
 
 function Navbar(){
   return (
-    <ul className='navbar'>
+    <div className='navbar'>
       <div className='company'>
         <div className='logo-image' ><img src={artic} alt='Artic Logo'></img></div>
-        <div>Artic Travels</div>
+        <div className='logo-title'>Artic Travels</div>
       </div>
 
       <div className='nav-right'>
@@ -14,8 +14,7 @@ function Navbar(){
         <div className='trips' href='/'>Trips</div>
         <div className='login'>Login</div>
       </div>
-      
-    </ul>
+    </div>
   );
 }
 
