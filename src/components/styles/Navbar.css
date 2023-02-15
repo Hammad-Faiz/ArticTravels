@@ -32,6 +32,7 @@ div {
 .nav-right{
   display: flex;
   font-size: 30px;
+  margin-right: 12%;
 }
 
 .trips {

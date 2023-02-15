@@ -1,4 +1,33 @@
-.planning {
-  display: flex;
+.mainPage {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.plan {
+  margin-top: 0.2%;
+  width: 100%;
+  background-color: #ffffff;
+  height: 260px;
+  box-shadow: rgba(0, 0, 0, 0.60) 0px 3px 8px;
+}
+
+.headline {
+  margin-top: 0.3%;
+  text-align: center;
+}
+
+.headline i{
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.headline2 {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.headline2 {
+  font-style: normal;
+  font-size: larger;
 }
 
