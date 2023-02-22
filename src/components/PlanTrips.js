@@ -14,7 +14,6 @@ function PlanTrips(){
             <div>
               Region
             </div>
-            
           </div>
         </div>
     </div>
